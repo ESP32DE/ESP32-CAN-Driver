@@ -8,6 +8,23 @@
  A basic CAN driver for the Espressif ESP32 by [Thomas Barth](http://barth-dev.de)
  
 version 0.1_third_parts by [rudi ;-)](http://esp32.de)
+
+update to new DPORT Access
+
+- DPORT Access changed
+  https://github.com/espressif/esp-idf/commit/377a1f5ea1ca9152524d54df6a7294620f42173c
+
+- added RTR support
+  Furetheremore, the complete FIR record is now copied into the 
+  CAN frame type. This boosts performance.
+  Details: https://github.com/ThomasBarth/ESP32-CAN-Driver/commit/990a69465072a6ea7cf14f43f98fd6c95b8cf3a2
+
+- extended frames and interrupt types
+  Added support for extended CAN frames and created an enum 
+  for the CAN Interrupts.
+  Details: https://github.com/ThomasBarth/ESP32-CAN-Driver/commit/b1536a9ed3fe61abdeb1a1eaf4abdba978b2a09f
+
+
 Change Log from 22 March 2017
  
    		- modified for esp-idf
