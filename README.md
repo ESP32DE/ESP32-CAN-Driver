@@ -9,8 +9,8 @@
  
 version 0.1_third_parts by [rudi ;-)](http://esp32.de)
 
-update to new DPORT Access
-
+Change Log from 21 May 2017
+ - update to new DPORT Access
  - DPORT Access changed
     Details:
     https://github.com/espressif/esp-idf/commit/377a1f5ea1ca9152524d54df6a7294620f42173c
