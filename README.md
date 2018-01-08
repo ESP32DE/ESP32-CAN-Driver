@@ -9,6 +9,11 @@
  
 version 0.1_third_parts by [rudi ;-)](http://esp32.de)
 
+Change Log from 08 Jan 2018
+ - avoid dominant CAN bus level while initialisation
+    Details:
+    https://github.com/ThomasBarth/ESP32-CAN-Driver/commit/312fd16f5921049fcc29dba64c1ef181f10ddc35
+
 Change Log from 21 May 2017
  - update to new DPORT Access
  - DPORT Access changed
