@@ -57,7 +57,7 @@ Change Log from 22 March 2017
  					- CONFIG_CAN_SPEED_USER_KBPS
  				user CAN speed
  					- CONFIG_CAN_SPEED_USER_KBPS ( bool )
- 						-CONFIG_CAN_SPEED_USER_KBPS_VAL (value)
+ 					- CONFIG_CAN_SPEED_USER_KBPS_VAL (value)
  				gpio pins for CANRx and CANTx
  					- CONFIG_ESP_CAN_RXD_PIN_NUM
  					- CONFIG_ESP_CAN_TXD_PIN_NUM 
